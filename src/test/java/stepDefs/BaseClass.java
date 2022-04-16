@@ -8,22 +8,21 @@ import io.cucumber.java.Before;
 
 public class BaseClass {
 
-public static WebDriver driver;
-	
-	
+	public static WebDriver driver;
+
 	@Before
-	public void SetUp( ) {
-	
+	public void SetUp() {
+
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 
 		driver = new ChromeDriver();
-		
+
 	}
-	
+
 	@After
-	public void TearDown( ) {
-		
+	public void TearDown() {
+
 		driver.close();
 	}
 }

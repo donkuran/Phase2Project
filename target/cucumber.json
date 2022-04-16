@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 727406700,
+              "duration": 584883200,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T05:41:17.618Z",
+        "start_timestamp": "2022-04-16T05:55:13.210Z",
         "before": [
           {
             "result": {
-              "duration": 2004633900,
+              "duration": 1305328000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 75489100,
+              "duration": 60782600,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2529600,
+              "duration": 2346400,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 112454900,
+              "duration": 97770200,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 72146900,
+              "duration": 69991500,
               "status": "passed"
             },
             "line": 10,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 71500900,
+              "duration": 54602100,
               "status": "passed"
             },
             "line": 11,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 475700,
+              "duration": 453600,
               "status": "passed"
             },
             "line": 12,
@@ -142,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 736122500,
+              "duration": 632444300,
               "status": "passed"
             },
             "line": 4,
@@ -155,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T05:41:20.725Z",
+        "start_timestamp": "2022-04-16T05:55:15.447Z",
         "before": [
           {
             "result": {
-              "duration": 1071928500,
+              "duration": 677166000,
               "status": "passed"
             },
             "match": {
@@ -174,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 59248000,
+              "duration": 49586000,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1021500,
+              "duration": 894600,
               "status": "passed"
             },
             "line": 20,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 111523700,
+              "duration": 97083400,
               "status": "passed"
             },
             "line": 21,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 86693600,
+              "duration": 75299500,
               "status": "passed"
             },
             "line": 22,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 73924100,
+              "duration": 53177300,
               "status": "passed"
             },
             "line": 23,
@@ -247,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 30449800,
+              "duration": 32318000,
               "status": "passed"
             },
             "line": 24,
@@ -282,7 +282,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 4,
+        "line": 3,
         "name": "Open the application",
         "description": "",
         "type": "background",
@@ -290,10 +290,10 @@
         "steps": [
           {
             "result": {
-              "duration": 734184300,
+              "duration": 600617800,
               "status": "passed"
             },
-            "line": 5,
+            "line": 4,
             "name": "I have opened the application in a browser",
             "match": {
               "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
@@ -302,10 +302,10 @@
           },
           {
             "result": {
-              "duration": 498800,
+              "duration": 485300,
               "status": "passed"
             },
-            "line": 6,
+            "line": 5,
             "name": "I have successfully open the application",
             "match": {
               "location": "LoginSteps.i_have_successfully_open_the_application()"
@@ -314,10 +314,10 @@
           },
           {
             "result": {
-              "duration": 110123200,
+              "duration": 107797800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 6,
             "name": "I enter username \"standard_user\"",
             "match": {
               "arguments": [
@@ -332,10 +332,10 @@
           },
           {
             "result": {
-              "duration": 93968500,
+              "duration": 77535700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 7,
             "name": "I enter password \"secret_sauce\"",
             "match": {
               "arguments": [
@@ -350,10 +350,10 @@
           },
           {
             "result": {
-              "duration": 136674400,
+              "duration": 116187600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "I click on the Login Button",
             "match": {
               "location": "LoginSteps.i_click_on_the_login_button()"
@@ -362,10 +362,10 @@
           },
           {
             "result": {
-              "duration": 471500,
+              "duration": 475900,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "I should land on the products page",
             "match": {
               "location": "LoginSteps.i_should_land_on_the_products_page()"
@@ -375,11 +375,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-16T05:41:22.916Z",
+        "start_timestamp": "2022-04-16T05:55:17.076Z",
         "before": [
           {
             "result": {
-              "duration": 1094657600,
+              "duration": 711048900,
               "status": "passed"
             },
             "match": {
@@ -387,14 +387,14 @@
             }
           }
         ],
-        "line": 13,
+        "line": 12,
         "name": "Validate product prices",
         "description": "",
         "id": "this-feature-will-be-used-to-validate-products-and-prices;validate-product-prices",
         "after": [
           {
             "result": {
-              "duration": 93208400,
+              "duration": 47333900,
               "status": "passed"
             },
             "match": {
@@ -407,10 +407,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1118000,
+              "duration": 1242600,
               "status": "passed"
             },
-            "line": 14,
+            "line": 13,
             "name": "I have have landed on the products page",
             "match": {
               "location": "ProductsSteps.i_have_have_landed_on_the_products_page()"
@@ -419,10 +419,10 @@
           },
           {
             "result": {
-              "duration": 196488300,
+              "duration": 190626200,
               "status": "passed"
             },
-            "line": 15,
+            "line": 14,
             "name": "Products prices should be as below",
             "match": {
               "location": "ProductsSteps.products_prices_should_be_as_below(DataTable)"

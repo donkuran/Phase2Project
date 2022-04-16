@@ -1,3 +1,4 @@
-stepDefs\LoginSteps.class
 stepDefs\TestRunner.class
 stepDefs\BaseClass.class
+stepDefs\LoginSteps.class
+stepDefs\ProductsSteps.class

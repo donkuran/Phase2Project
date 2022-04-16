@@ -8,19 +8,18 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 
 @CucumberOptions(
-		
-		plugin = {"html:target/html-cucumber", "json:target/cucumber.json"},
-		
+
+		plugin = { "html:target/html-cucumber", "json:target/cucumber.json" },
+
 		features = "src/test/java/features",
-		
-		//tags = {"@Sanity"}, 
 
-		tags = {"@Sanity, @Regression"},
-		
-		glue = {"stepDefs"}
-		
-		)
+		// tags = {"@Sanity"},
 
+		tags = { "@Sanity, @Regression" },
+
+		glue = { "stepDefs" }
+
+)
 
 public class TestRunner {
 

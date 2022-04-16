@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="stepDefs.TestRunner" time="5.597" errors="0" skipped="0">
+<testsuite tests="3" failures="0" name="stepDefs.TestRunner" time="7.766" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
@@ -53,7 +53,7 @@
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="11.0.13"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="sun.stderr.encoding" value="cp65001"/>
     <property name="maven.home" value="C:\apache-maven-3.8.4"/>
     <property name="file.separator" value="\"/>
     <property name="java.version.date" value="2021-10-19"/>
@@ -61,10 +61,11 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="18.9"/>
-    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.stdout.encoding" value="cp65001"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="This feature will be used to validate the Login page" name="Validate successful login" time="3.309"/>
-  <testcase classname="This feature will be used to validate the Login page" name="Validate negative login" time="2.288"/>
+  <testcase classname="This feature will be used to validate the Login page" name="Validate successful login" time="3.112"/>
+  <testcase classname="This feature will be used to validate the Login page" name="Validate negative login" time="2.185"/>
+  <testcase classname="This feature will be used to validate Products and Prices" name="Validate product prices" time="2.469"/>
 </testsuite>

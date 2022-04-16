@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 690276200,
+              "duration": 727406700,
               "status": "passed"
             },
             "line": 4,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T06:18:57.362Z",
+        "start_timestamp": "2022-04-16T05:41:17.618Z",
         "before": [
           {
             "result": {
-              "duration": 2157845200,
+              "duration": 2004633900,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 91372400,
+              "duration": 75489100,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1836600,
+              "duration": 2529600,
               "status": "passed"
             },
             "line": 8,
@@ -68,7 +68,7 @@
           },
           {
             "result": {
-              "duration": 122150000,
+              "duration": 112454900,
               "status": "passed"
             },
             "line": 9,
@@ -86,7 +86,7 @@
           },
           {
             "result": {
-              "duration": 108122000,
+              "duration": 72146900,
               "status": "passed"
             },
             "line": 10,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 71967700,
+              "duration": 71500900,
               "status": "passed"
             },
             "line": 11,
@@ -116,7 +116,7 @@
           },
           {
             "result": {
-              "duration": 603600,
+              "duration": 475700,
               "status": "passed"
             },
             "line": 12,
@@ -142,7 +142,7 @@
         "steps": [
           {
             "result": {
-              "duration": 739360800,
+              "duration": 736122500,
               "status": "passed"
             },
             "line": 4,
@@ -155,11 +155,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-10T06:19:00.652Z",
+        "start_timestamp": "2022-04-16T05:41:20.725Z",
         "before": [
           {
             "result": {
-              "duration": 1158075200,
+              "duration": 1071928500,
               "status": "passed"
             },
             "match": {
@@ -174,7 +174,7 @@
         "after": [
           {
             "result": {
-              "duration": 80905000,
+              "duration": 59248000,
               "status": "passed"
             },
             "match": {
@@ -187,7 +187,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2806000,
+              "duration": 1021500,
               "status": "passed"
             },
             "line": 20,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 102995900,
+              "duration": 111523700,
               "status": "passed"
             },
             "line": 21,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 87672500,
+              "duration": 86693600,
               "status": "passed"
             },
             "line": 22,
@@ -235,7 +235,7 @@
           },
           {
             "result": {
-              "duration": 82839800,
+              "duration": 73924100,
               "status": "passed"
             },
             "line": 23,
@@ -247,7 +247,7 @@
           },
           {
             "result": {
-              "duration": 41283700,
+              "duration": 30449800,
               "status": "passed"
             },
             "line": 24,
@@ -276,6 +276,210 @@
     "id": "this-feature-will-be-used-to-validate-the-login-page",
     "keyword": "Feature",
     "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Open the application",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 734184300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the application in a browser",
+            "match": {
+              "location": "LoginSteps.i_have_opened_the_application_in_a_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 498800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I have successfully open the application",
+            "match": {
+              "location": "LoginSteps.i_have_successfully_open_the_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110123200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter username \"standard_user\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"standard_user\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_username(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93968500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter password \"secret_sauce\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"secret_sauce\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.i_enter_password(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136674400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on the Login Button",
+            "match": {
+              "location": "LoginSteps.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 471500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should land on the products page",
+            "match": {
+              "location": "LoginSteps.i_should_land_on_the_products_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-16T05:41:22.916Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1094657600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.SetUp()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate product prices",
+        "description": "",
+        "id": "this-feature-will-be-used-to-validate-products-and-prices;validate-product-prices",
+        "after": [
+          {
+            "result": {
+              "duration": 93208400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BaseClass.TearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1118000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I have have landed on the products page",
+            "match": {
+              "location": "ProductsSteps.i_have_have_landed_on_the_products_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196488300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Products prices should be as below",
+            "match": {
+              "location": "ProductsSteps.products_prices_should_be_as_below(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Sauce Labs Backpack",
+                  "$29.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bike Light",
+                  "$9.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Bolt T-Shirt",
+                  "$15.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Fleece Jacket",
+                  "$49.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Sauce Labs Onesie",
+                  "$7.99"
+                ]
+              },
+              {
+                "cells": [
+                  "Test.allTheThings() T-Shirt (Red)",
+                  "$15.99"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature will be used to validate Products and Prices",
+    "description": "",
+    "id": "this-feature-will-be-used-to-validate-products-and-prices",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Products.feature",
     "tags": []
   }
 ]
